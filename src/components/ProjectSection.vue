@@ -17,13 +17,13 @@ const projects = [
     {
         title: 'Restful API',
         description: 'Built Restful API for login with react.js',
-        image: require('@/src/assets/about.jpg'),
+        image: require('@/src/assets/api.png'),
         link: 'https://github.com/RastamanRegga/RESTFUL-API'
     },
     {
         title: 'Calculator App',
         description: 'Making Android Calculator with kotlin',
-        image: require('@/src/assets/about.jpg'),
+        image: require('@/src/assets/kalkulator.jpg'),
         link: 'https://github.com/RastamanRegga/Kalkulator'
     }
 ]

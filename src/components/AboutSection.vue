@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="about-img">
-            <img src= "\src\assets\about.jpg" alt="Java">
+            <img src= "\src\assets\about.jpeg" alt="Java">
         </div>
     </section>
 </template>

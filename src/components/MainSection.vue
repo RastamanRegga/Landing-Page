@@ -1,7 +1,7 @@
 <template>
     <section class="home" id="home">
         <div class="home-img">
-            <img src="\src\assets\home.jpg"  alt="">
+            <img src="\src\assets\home.jpeg"  alt="">
         </div>
         <div class="home-content">
             <h1>Hi, it's <span>Regga!</span></h1>
