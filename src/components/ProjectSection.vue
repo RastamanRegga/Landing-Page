@@ -1,29 +1,33 @@
 <script setup>
-import ProjectCard from './ProjectCard.vue';
+import ProjectCard from './ProjectCard.vue'
+import todoImg from '../assets/todo.png'
+import webImg from '../assets/web.png'
+import apiImg from '../assets/api.png'
+import kalkulatorImg from '../assets/kalkulator.png'
 
 const projects = [
     {
         title: 'To-Do List App',
         description: 'Simple App using java and python',
-        image: require('@/src/assets/todo.png'),
+        image: todoImg,
         link: 'https://github.com/RastamanRegga/To-Do-App'
     },
     {
         title: 'Landing Page',
         description: 'Responsive landing page using Vue.js',
-        image: require('@/src/assets/web.png'),
+        image: webImg,
         link: '#home'
     },
     {
         title: 'Restful API',
         description: 'Built Restful API for login with react.js',
-        image: require('@/src/assets/api.png'),
+        image: apiImg,
         link: 'https://github.com/RastamanRegga/RESTFUL-API'
     },
     {
         title: 'Calculator App',
         description: 'Making Android Calculator with kotlin',
-        image: require('@/src/assets/kalkulator.jpg'),
+        image: kalkulatorImg,
         link: 'https://github.com/RastamanRegga/Kalkulator'
     }
 ]
