@@ -5,25 +5,25 @@ const projects = [
     {
         title: 'To-Do List App',
         description: 'Simple App using java and python',
-        image: '/src/assets/about.jpg',
+        image: require('@/src/assets/todo.png'),
         link: 'https://github.com/RastamanRegga/To-Do-App'
     },
     {
         title: 'Landing Page',
         description: 'Responsive landing page using Vue.js',
-        image: 'src/assets/web.png',
+        image: require('@/src/assets/web.png'),
         link: '#home'
     },
     {
         title: 'Restful API',
         description: 'Built Restful API for login with react.js',
-        image: '/src/assets/about.jpg',
+        image: require('@/src/assets/about.jpg'),
         link: 'https://github.com/RastamanRegga/RESTFUL-API'
     },
     {
         title: 'Calculator App',
         description: 'Making Android Calculator with kotlin',
-        image: '/src/assets/about.jpg',
+        image: require('@/src/assets/about.jpg'),
         link: 'https://github.com/RastamanRegga/Kalkulator'
     }
 ]
