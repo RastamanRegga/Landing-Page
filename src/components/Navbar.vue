@@ -6,7 +6,7 @@
         <a href="#home" class="active">Home</a>
         <a href="#about">About Me</a>
         <a href="#Project">Projects</a>
-        <a href="#footer">Contact</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
   </div>

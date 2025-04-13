@@ -3,17 +3,18 @@
 </script>
 
 <template>
-    <section>
+    <section id="contact">
         <div class="contact-form">
-            <form>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="48618d7c-e464-49c2-948a-1ef480cc0e57">
                 <h1>Get in touch</h1>
-                <input type="text" id="firstName" placeholder="First Name" required />
-                <input type="text" id="lastName" placeholder="Last Name" required />
-                <input type="email" id="email" placeholder="Email" required />
-                <input type="text" id="mobile" placeholder="Mobile" required />
-                <h4>Type Your Message Here...</h4>
-                <textarea required></textarea>
-                <input type="submit"  id="button" />
+                <input type="text" name='first_name' id="firstName" placeholder="First Name" required />
+                <input type="text" name="last_ame" id="lastName" placeholder="Last Name" required />
+                <input type="email" name='email' id="email" placeholder="Email" required />
+                <input type="text" name="phone_number" id="mobile" placeholder="Mobile" required />
+                <h4 >Type Your Message Here...</h4>
+                <textarea name="message" required></textarea>
+                <input type="submit" action="post" id="button" />
             </form>
             <img src="\src\assets\email.jpg" class="img">
         </div>
