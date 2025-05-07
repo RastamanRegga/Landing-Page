@@ -27,10 +27,8 @@ This is a personal landing page built with **Vue.js / Nuxt.js**. It serves as a 
 ├── nuxt.config.js / vite.config.js
 ├── README.md
 └── package.json
-
-
+```
 ## 🧪 Getting Started
-
 ```bash
 # Clone the repository
 git clone https://github.com/username/landing-page.git
@@ -45,4 +43,3 @@ npm run dev
 📦 Build for Production
 
 npm run build
-
