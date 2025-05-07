@@ -1,6 +1,6 @@
 # 🌐 Personal Landing Page
 
-This is a personal landing page built with **Vue.js / Nuxt.js**. It serves as a simple and elegant way to introduce yourself, showcase your projects, and provide contact information.
+This is a personal landing page built with **Vue.js**. It serves as a simple and elegant way to introduce yourself, showcase your projects, and provide contact information.
 
 ## 🚀 Features
 
