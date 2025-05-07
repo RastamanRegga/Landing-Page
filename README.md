@@ -15,6 +15,7 @@ This is a personal landing page built with **Vue.js / Nuxt.js**. It serves as a 
 - **JavaScript
 ## 📂 Project Structure (General)
 
+```bash
 ├── components/
 │ └── ProjectSlider.vue
 ├── pages/
